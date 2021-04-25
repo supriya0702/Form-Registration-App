@@ -20,14 +20,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    QMessageBox::information(this,"SamathmikaK 212218205044","Successfully Submitted!!");
+    QMessageBox::information(this,"Supriya 212218104163","Successfully Submitted!!");
 }
 
 
 void MainWindow::on_lineEdit_6_returnPressed()
 {
     if(ui->lineEdit_6->text().length()>20)
-           QMessageBox::information(this,"SamathmikaK 212218205044","Size exceeded!");
+           QMessageBox::information(this,"Supriya 212218104163","Size exceeded!");
 }
 
 void MainWindow::on_lineEdit_3_returnPressed()
@@ -37,7 +37,7 @@ void MainWindow::on_lineEdit_3_returnPressed()
     bool hasMatch = match.hasMatch();
     if (!hasMatch)
     {
-       QMessageBox::information(this,"SamathmikaK 212218205044","Invalid Format");
+       QMessageBox::information(this,"Supriya 212218104163","Invalid Format");
     }
 }
 
